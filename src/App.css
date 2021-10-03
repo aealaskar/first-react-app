@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #787a91;
+}
+.home {
+  text-align: center;
+  background-color: #77acf1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: oblique;
+  color: #04009a;
+}
+.product-list {
+  flex-direction: row;
+  display: flex;
+  background-color: #c0fefc;
+  text-align: center;
+  color: #04009a;
+}
+
+.product-image {
+  width: 120px;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
